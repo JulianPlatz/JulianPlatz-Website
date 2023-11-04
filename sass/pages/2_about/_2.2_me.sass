@@ -1,0 +1,45 @@
+@import sass/other/variables
+
+.me-section
+    width: 100%
+    height: auto
+    display: flex
+    background-color: $primary
+    padding: $py-15
+    margin-top: $m-1
+    justify-content: center
+    align-items: center
+
+    div
+        border: 1px solid red
+        max-width: 90%
+        display: flex
+        flex-direction: column
+        height: auto
+
+        article
+            border: 1px solid red
+            max-width: 70%
+            height: auto
+            display: flex
+            flex-direction: column
+            margin: auto auto
+
+            h1
+                font-family: "Inter-Bold"
+                font-size: clamp($header-mobile, 5vw, $header-desktop)
+                font-weight: normal
+                margin: 0
+
+            p
+                font-family: "Inter-Medium"
+                font-size: clamp($text-mobile, 2.5vw, $text-desktop)
+                line-height: $line-height
+                color: $gray
+
+/* Tablet Portrait */
+@media only screen and (min-device-width: 810px) and (max-device-width: 1199px) and (orientation: portrait) 
+
+
+/* Phone Portrait */
+@media only screen and (max-device-width: 809px) and (orientation: portrait)

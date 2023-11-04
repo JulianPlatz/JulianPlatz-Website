@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+        <meta name="description" content="Portfolio"/>
+        <meta name="author" content="Julian Platz">
+        <meta name="keywords" content="HTML, CSS (SASS)">
+        <title>Julian Platz | Erfolge</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/style.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="#">JP</a>
+            <div>
+                <button aria-label="navBurgerIcon-Button" onclick="toggleNavbar()">
+                    <div class="burgerOne"></div>
+                    <div></div>
+                    <div class="burgerThree"></div>
+                </button>
+                <p class="nav-menüCloseText">Menü</p>
+            </div>
+        </header>
+        <nav>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="aboutMe.html">Über Mich</a>
+                <a href="#">Erfolge</a>
+            </div>
+        </nav>
+
+        <section class="gamesTalente-section">
+            <div class="gamesTalente-div">
+                <article>
+                    <h1>Don't Touch</h1>
+                    <p>
+                        Ein kleines Reaktionsspiel, was mit unter 
+                        100 Zeilen Python-Code geschreiben wurde.
+                    </p>
+                    <div class="zitat-div">
+                        <div class="zitat-line"></div>
+                        <q>Es geht nicht immer nur um das Design,
+                            sondern auch um die Funktion.</q>
+                    </div>
+                </article>
+                <video controls controlsList="nodownload" src="videos/Don't Touch Trailer Julian Platz.mp4" poster="images/successes/frame.webp" class="trailer-video"></video>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-contentDiv">
+                <a href="#">&copy; 2023 Julian Platz</a>
+                <div>
+                    <a href="https://github.com/JulianPlatz" target="_blank"><i class="fa-brands fa-github" data-github="GitHub" title="GitHub"></i></a>
+                    <a href="https://codepen.io/JulianPlatz"target="_blank"><i class="fa-brands fa-codepen" data-codepen="CodePen" title="CodePen"></i></a>
+                    <a href="https://www.linkedin.com/in/julianplatz" target="_blank"><i class="fa-brands fa-linkedin" data-linkedin="LinkedIn" title="LinkedIn"></i></a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/onclick.js"></script>
+        <script src="https://kit.fontawesome.com/771ce1728e.js" crossorigin="anonymous"></script>
+    </body>
+</html>

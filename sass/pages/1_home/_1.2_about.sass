@@ -1,0 +1,66 @@
+@import sass/other/variables
+    
+.about-section
+    width: 100%
+    height: auto
+    display: flex
+    background-color: $primary
+    padding: $py-15
+    margin-top: $m-1
+    justify-content: center
+    align-items: center
+
+    div
+        max-width: 90%
+        height: auto
+        display: flex
+        flex-direction: row
+        column-gap: 150px
+
+        article
+            width: 450px
+            height: auto
+            display: flex
+            flex-direction: column
+            justify-content: center
+
+            h1
+                font-family: "Inter-Bold"
+                font-size: clamp($header-mobile, 5vw, $header-desktop)
+                font-weight: normal
+                margin: 0
+
+            p
+                font-family: "Inter-Medium"
+                font-size: clamp($text-mobile, 2.5vw, $text-desktop)
+                line-height: $line-height
+                color: $gray
+
+        .about-img
+            width: 400px
+            height: 250px
+            border-radius: 10px
+            // background: center / cover url("/images/home/laptop.webp")
+            background-color: $secondary
+
+/* Tablet Portrait */
+@media only screen and (min-device-width: 810px) and (max-device-width: 1199px) and (orientation: portrait) 
+    .about-section div
+        column-gap: 50px
+
+/* Phone Portrait */
+@media only screen and (max-device-width: 809px) and (orientation: portrait)
+    .about-section 
+        padding: $py-10
+
+        div
+            width: 100%
+            flex-direction: column
+            row-gap: $m-1
+
+            article
+                width: 100%
+                padding-top: $m-1
+
+            .about-img
+                width: 100%

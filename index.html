@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+        <meta name="description" content="Portfolio"/>
+        <meta name="author" content="Julian Platz">
+        <meta name="keywords" content="HTML, SASS, minimalistic, Portfolio">
+        <!-- browser application -->
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="images/favicon.ico">
+        <meta name="theme-color" content="#ffffff">
+        <!-- share website-link -->
+        <meta property="og:title" content="Julian Platz">
+        <meta property="og:description" content="Portfolio">
+        <meta property="og:image" content="images/favicon.ico">
+        <!-- -->
+        <title>Julian Platz | Home</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="canonical" href="https://julianplatz.netlify.app"/>
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="manifest" href="extra/manifest.json">
+    </head>
+    <body>
+        <header>
+            <a href="#">JP</a>
+            <button aria-label="navBurger-btn" onclick="toggleNavbar()">
+                <div id="burgerOne"></div>
+                <div id="burgerTwo"></div>
+            </button>
+        </header>
+        <nav>
+            <div id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="success.html">Success</a>
+            </div>
+        </nav>
+
+        <section class="home-section">
+            <h1>JULIAN PLATZ</h1>
+            <h2>AUSZUBILDENDER</h2>
+        </section>
+
+        <section class="about-section">
+            <div>
+                <article>
+                    <h1>About 👋</h1>
+                    <p>
+                        Durch Online-Shops, Informationen und 
+                        weiterem wird das Web immer wichtiger.
+                        Deswegen möchte ich helfen und als
+                        zukünftiger Web-Entwickler mitwirken.
+                    </p>
+                </article>
+                <div class="about-img"></div>
+            </div>
+        </section>
+       
+        <section class="success-section">
+            <div>
+                <div class="success-img"></div>
+                <article>
+                    <h1>Success 🏅</h1>
+                    <p>
+                        Jeder hat die Möglichkeit etwas zu erreichen.
+                        Egal in welchem Bereich auch immer. <br>
+                        Ob Urkunden, Zertifikate, etc.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-box">
+                <div class="quick-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="success.html">Success</a>
+                </div>
+                <div class="logo">
+                    <a href="#">JP</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/JulianPlatz" target="_blank"><i class="fa-brands fa-github" data-github="GitHub" title="GitHub"></i></a>
+                    <a href="https://codepen.io/JulianPlatz"target="_blank"><i class="fa-brands fa-codepen" data-codepen="CodePen" title="CodePen"></i></a>
+                    <a href="https://www.linkedin.com/in/julianplatz" target="_blank"><i class="fa-brands fa-linkedin" data-linkedin="LinkedIn" title="LinkedIn"></i></a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/nav.js"></script>
+        <script src="https://kit.fontawesome.com/771ce1728e.js" crossorigin="anonymous"></script>
+    </body>
+</html>

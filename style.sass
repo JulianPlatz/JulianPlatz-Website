@@ -1,0 +1,45 @@
+@import sass/components/header
+@import sass/components/footer
+
+@import sass/pages/1_home/1.1_home
+@import sass/pages/1_home/1.2_about
+@import sass/pages/1_home/1.3_success
+
+@import sass/pages/2_about/2.1_about
+@import sass/pages/2_about/2.2_me
+
+// @import sass/pages/3_success/3.1_gamesTalente
+
+// @import sass/pages/404
+
+@import sass/other/variables
+
+@font-face
+    font-family: "Inter-Black"
+    src: url(/fonts/Inter-Black.ttf) format("truetype")
+    font-display: swap
+
+@font-face
+    font-family: "Inter-Bold"
+    src: url(/fonts/Inter-Bold.ttf) format("truetype")
+    font-display: swap
+
+@font-face
+    font-family: "Inter-Medium"
+    src: url(/fonts/Inter-Medium.ttf) format("truetype")
+    font-display: swap
+
+html, body
+    margin: $m-05
+    padding: 0
+    box-sizing: border-box
+    scroll-behavior: smooth
+    overflow-x: hidden
+    background-color: $background
+    color: $black
+    cursor: default
+    transition: 1s
+
+::selection
+    background-color: $black
+    color: $primary

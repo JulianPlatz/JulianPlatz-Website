@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+        <meta name="description" content="Portfolio"/>
+        <meta name="author" content="Julian Platz">
+        <meta name="keywords" content="HTML, CSS (SASS)">
+        <title>Julian Platz | Über Mich</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/style.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="#">JP</a>
+            <button aria-label="navBurger-btn" onclick="toggleNavbar()">
+                <div id="burgerOne"></div>
+                <div id="burgerTwo"></div>
+            </button>
+        </header>
+        <nav>
+            <div id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="success.html">Success</a>
+            </div>
+        </nav>
+
+        <section class="about-section">
+            <div>
+                <article>
+                    <h1>About 👋</h1>
+                    <p>
+                        Heyy, ich bin Julian!
+                        <br><br>
+                        Ich habe eine Leidenschaft für Design, Web-
+                        Entwicklung und eigentlich an allem, was mit
+                        Technik zu tun hat.
+                    </p>
+                </article>
+                <div class="about-img"></div>
+            </div>
+        </section>
+
+        <section class="me-section">
+            <div>
+                <article>
+                    <h1>My Story 👨‍💻</h1>
+                    <p>
+                        Mit 13 Jahren lernte ich die Welt des Programmierens kennen. Ich fing an, meine erste kleine 
+                        Website zu schreiben, bastelte ein 2D Jump 'n' Run Spiel und testete verschiedene
+                        Programmiersprachen aus. Hängengeblieben bin ich dabei dann in der Web-Entwicklung. Vor allem 
+                        im Front-End kann ich meine Ideen in interaktive und ansprechende Benutzeroberflächen
+                        verwandeln und dem Nutzer eine sehr gute Benutzererfahrung versprechen.
+                    </p>
+                </article>
+                <div class="skillGrid-div">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                    <button>SCSS/SASS</button>
+                    <button>PHP</button>
+                    <button>MySQL</button>
+                    <button>Figma</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-box">
+                <div class="quick-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="success.html">Success</a>
+                </div>
+                <div class="logo">
+                    <a href="#">JP</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/JulianPlatz" target="_blank"><i class="fa-brands fa-github" data-github="GitHub" title="GitHub"></i></a>
+                    <a href="https://codepen.io/JulianPlatz"target="_blank"><i class="fa-brands fa-codepen" data-codepen="CodePen" title="CodePen"></i></a>
+                    <a href="https://www.linkedin.com/in/julianplatz" target="_blank"><i class="fa-brands fa-linkedin" data-linkedin="LinkedIn" title="LinkedIn"></i></a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/nav.js"></script>
+        <script src="https://kit.fontawesome.com/771ce1728e.js" crossorigin="anonymous"></script>
+    </body>
+</html>
