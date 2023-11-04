@@ -1,5 +1,5 @@
 @import sass/other/variables
-
+    
 .me-section
     width: 100%
     height: auto
@@ -11,19 +11,18 @@
     align-items: center
 
     div
-        border: 1px solid red
         max-width: 90%
+        height: auto
         display: flex
         flex-direction: column
-        height: auto
+        column-gap: 150px
 
         article
-            border: 1px solid red
-            max-width: 70%
+            width: 1000px
             height: auto
             display: flex
             flex-direction: column
-            margin: auto auto
+            justify-content: center
 
             h1
                 font-family: "Inter-Bold"
@@ -36,10 +35,36 @@
                 font-size: clamp($text-mobile, 2.5vw, $text-desktop)
                 line-height: $line-height
                 color: $gray
+                width: 950px
+
+        .skillGrid-box
+            width: 600px
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
+            gap: 2rem
+            justify-content: center
+            margin: 75px auto
+
+            button
+                border: 2px solid $secondary
+                border-radius: 50px
+                background-color: $background
+                font-size: clamp($text-mobile, 2.5vw, $text-desktop)
+                color: $black
+                padding: 15px 0
+                width: 175px
+                cursor: pointer
+                transition: .25s
+
+                &:hover 
+                    border-radius: 1rem 50px 50px 50px
+        
 
 /* Tablet Portrait */
 @media only screen and (min-device-width: 810px) and (max-device-width: 1199px) and (orientation: portrait) 
 
-
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
+    .me-section div .skillGrid-box
+        gap: 1rem
