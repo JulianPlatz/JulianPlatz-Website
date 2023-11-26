@@ -1,33 +1,27 @@
 @import sass/other/variables
 
-.home-section
-    width: 100%
-    height: auto
-    padding: 1px
+main
     display: flex
-    justify-content: center
+    flex: 1 0 auto
+    margin-top: $m-05
     align-items: center
     flex-direction: column
-    padding: $py-15
-    margin-top: $m-1
+    justify-content: center
     background-color: $primary
 
     h1
+        font-weight: normal
         font-family: "Inter-Black"
         font-size: clamp(30px, 10vw , 75px)
-        font-weight: normal
 
     h2
+        color: $gray
+        margin-top: -25px
+        font-weight: normal
         font-family: "Inter-Medium"
         font-size: clamp(20px, 5vw , 30px)
-        font-weight: normal
-        margin-top: -25px
-        color: $gray
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
-    .sec-home 
-        padding: $py-10
-
-        h2
-            margin-top: 0
+    .sec-home h2
+        margin-top: 0

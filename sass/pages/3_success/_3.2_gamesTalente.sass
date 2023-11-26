@@ -1,6 +1,6 @@
 @import sass/other/variables
     
-.me-section
+.gamesTalente-section
     width: 100%
     height: auto
     display: flex
@@ -32,39 +32,53 @@
 
             p
                 color: $gray
-                width: 950px
+                width: 970px
                 line-height: $line-height
                 font-family: "Inter-Medium"
                 font-size: clamp($text-mobile, 2.5vw, $text-desktop)
 
-        .skillGrid-box
+        .project-box
             gap: 2rem
-            width: 600px
             display: flex
-            flex-wrap: wrap
-            margin: 75px auto
-            flex-direction: row
-            justify-content: center
+            flex-direction: column
+
+            span
+                margin: 0
+                color: $secondary
+                font-weight: normal
+                font-family: "Inter-Bold"
+                font-size: clamp(30px, 10vw , 75px)
+
+            video
+                width: 1000px
+                border-radius: $b-1
 
             button
-                color: $black
-                width: 175px
-                padding: 15px 0
-                cursor: pointer
-                transition: .25s
-                border-radius: 50px
-                border: 2px solid $secondary
-                background-color: $background
-                font-size: clamp($text-mobile, 2.5vw, $text-desktop)
+                gap: 2rem
+                width: 250px
+                border: none
+                display: flex
+                padding: $py-05
+                flex-direction: row
+                align-items: center
+                border-radius: $b-1
+                justify-content: center
+                background-color: $secondary
 
-                &:hover 
-                    border-radius: 1rem 50px 50px 50px
-        
+                p
+                    color: $gray
+                    line-height: $line-height
+                    font-family: "Inter-Medium"
+                    font-size: clamp($text-mobile, 2.5vw, $text-desktop)
+
+                img
+                    width: 50px
+                    height: 50px
+                    border-radius: 50%
 
 /* Tablet Portrait */
 @media only screen and (min-device-width: 810px) and (max-device-width: 1199px) and (orientation: portrait) 
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
-    .me-section div .skillGrid-box
-        gap: 1rem
+    

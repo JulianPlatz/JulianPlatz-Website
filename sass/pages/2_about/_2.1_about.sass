@@ -4,18 +4,18 @@
     width: 100%
     height: auto
     display: flex
-    background-color: $primary
     padding: $py-15
     margin-top: $m-1
-    justify-content: center
     align-items: center
+    justify-content: center
+    background-color: $primary
 
     div
-        max-width: 90%
         height: auto
         display: flex
-        flex-direction: row
+        max-width: 90%
         column-gap: 150px
+        flex-direction: row
 
         article
             width: 450px
@@ -25,23 +25,23 @@
             justify-content: center
 
             h1
+                margin: 0
+                font-weight: normal
                 font-family: "Inter-Bold"
                 font-size: clamp($header-mobile, 5vw, $header-desktop)
-                font-weight: normal
-                margin: 0
 
             p
+                color: $gray
+                line-height: $line-height
                 font-family: "Inter-Medium"
                 font-size: clamp($text-mobile, 2.5vw, $text-desktop)
-                line-height: $line-height
-                color: $gray
 
         .about-img
             width: 400px
             height: 250px
             border-radius: 10px
-            // background: center / cover url("/images/home/laptop.webp")
             background-color: $secondary
+            // background: center / cover url("/images/home/laptop.webp")
 
 /* Tablet Portrait */
 @media only screen and (min-device-width: 810px) and (max-device-width: 1199px) and (orientation: portrait) 
@@ -55,8 +55,8 @@
 
         div
             width: 100%
-            flex-direction: column
             row-gap: $m-1
+            flex-direction: column
 
             article
                 width: 100%

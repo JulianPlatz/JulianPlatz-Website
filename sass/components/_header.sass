@@ -1,34 +1,34 @@
 @import sass/other/variables
     
 header
+    z-index: 10
     width: 100%
     height: 80px
     display: flex
-    justify-content: space-between
-    align-items: center
-    z-index: 10
     user-select: none
+    align-items: center
     background-color: $primary
+    justify-content: space-between
 
     a
-        font-family: "Inter-Bold"
-        font-size: $text
         color: $black
-        text-decoration: none
-        margin-left: 2.5rem
         cursor: default
+        font-size: $text
+        margin-left: 2.5rem
+        text-decoration: none
+        font-family: "Inter-Bold"
 
     button
-        height: 1.75rem
-        border: none
-        background-color: transparent
-        color: $black
-        cursor: pointer
-        display: flex
-        justify-content: center
-        flex-direction: column
         row-gap: 5px
+        border: none
+        color: $black
+        display: flex
+        height: 1.75rem
+        cursor: pointer
         margin-right: 2.5rem
+        flex-direction: column
+        justify-content: center
+        background-color: transparent
 
         div
             width: 15px
@@ -37,35 +37,35 @@ header
             background-color: $black
         
 nav
-    position: absolute
-    width: 100%
     height: 0%
-    background-color: $primary
     z-index: 1
+    width: 100%
     opacity: .9
+    position: absolute
     pointer-events: none
+    background-color: $primary
 
     div
-        position: absolute
-        transform: translate(-60%, -50%)
-        inset: 40% 50%
+        opacity: 0
         width: 10rem
-        height: 12.5rem
         display: flex
+        inset: 40% 50%
+        height: 12.5rem
+        list-style: none
+        position: absolute
         flex-direction: column
         justify-content: space-between
-        list-style: none
-        opacity: 0
+        transform: translate(-60%, -50%)
 
         a
-            font-family: "Inter-Bold"
-            font-size: $subheader
             color: $black
-            text-decoration: none
             display: flex
-            justify-content: start
-            transition: .25s
             cursor: pointer
+            transition: .25s
+            text-decoration: none
+            font-size: $subheader
+            justify-content: start
+            font-family: "Inter-Bold"
 
             &:hover
                 transform: translateX(10px)
@@ -82,5 +82,5 @@ nav
         font-size: 14px
 
     nav div
-        transform: translateY(-60%, -45%)
         inset: 40% 50%
+        transform: translateY(-60%, -45%)

@@ -22,69 +22,42 @@
         <link rel="manifest" href="extra/manifest.json">
     </head>
     <body>
-        <header>
-            <a href="#">JP</a>
-            <button aria-label="navBurger-btn" onclick="toggleNavbar()">
-                <div id="burgerOne"></div>
-                <div id="burgerTwo"></div>
-            </button>
-        </header>
-        <nav>
-            <div id="navLinks">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="success.html">Success</a>
-            </div>
-        </nav>
-
-        <section class="home-section">
-            <h1>JULIAN PLATZ</h1>
-            <h2>AUSZUBILDENDER</h2>
-        </section>
-
-        <section class="about-section">
-            <div>
-                <article>
-                    <h1>About 👋</h1>
-                    <p>
-                        Durch Online-Shops, Informationen und 
-                        weiterem wird das Web immer wichtiger.
-                        Deswegen möchte ich helfen und als
-                        zukünftiger Web-Entwickler mitwirken.
-                    </p>
-                </article>
-                <div class="about-img"></div>
-            </div>
-        </section>
-       
-        <section class="success-section">
-            <div>
-                <div class="success-img"></div>
-                <article>
-                    <h1>Success 🏅</h1>
-                    <p>
-                        Jeder hat die Möglichkeit etwas zu erreichen.
-                        Egal in welchem Bereich auch immer. <br>
-                        Ob Urkunden, Zertifikate, etc.
-                    </p>
-                </article>
-            </div>
-        </section>
-
-        <footer>
-            <div class="footer-box">
-                <div class="quick-links">
+        <div class="body-wrap">
+            <header>
+                <a href="#">JP</a>
+                <button aria-label="navBurger-btn" onclick="toggleNavbar()">
+                    <div id="burgerOne"></div>
+                    <div id="burgerTwo"></div>
+                </button>
+            </header>
+            <nav>
+                <div id="navLinks">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
                     <a href="success.html">Success</a>
                 </div>
-                <div class="social-links">
-                    <a href="https://github.com/JulianPlatz" target="_blank"><i class="fa-brands fa-github" data-github="GitHub" title="GitHub"></i></a>
-                    <a href="https://codepen.io/JulianPlatz"target="_blank"><i class="fa-brands fa-codepen" data-codepen="CodePen" title="CodePen"></i></a>
-                    <a href="https://www.linkedin.com/in/julianplatz" target="_blank"><i class="fa-brands fa-linkedin" data-linkedin="LinkedIn" title="LinkedIn"></i></a>
+            </nav>
+
+            <main>
+                <h1>JULIAN PLATZ</h1>
+                <h2>AUSZUBILDENDER</h2>
+            </main>
+        
+            <footer>
+                <div class="footer-box">
+                    <div class="quick-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="success.html">Success</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/JulianPlatz" target="_blank"><i class="fa-brands fa-github" data-github="GitHub" title="GitHub"></i></a>
+                        <a href="https://codepen.io/JulianPlatz"target="_blank"><i class="fa-brands fa-codepen" data-codepen="CodePen" title="CodePen"></i></a>
+                        <a href="https://www.linkedin.com/in/julianplatz" target="_blank"><i class="fa-brands fa-linkedin" data-linkedin="LinkedIn" title="LinkedIn"></i></a>
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
         <script src="js/nav.js"></script>
         <script src="https://kit.fontawesome.com/771ce1728e.js" crossorigin="anonymous"></script>
     </body>
