@@ -1,41 +1,19 @@
-@import sass/other/variables
+@import sass/variables
     
 .me-section
-    width: 100%
-    height: auto
-    display: flex
-    padding: $py-15
-    margin-top: $m-1
-    align-items: center
-    justify-content: center
-    background-color: $primary
-
     div
         height: auto
         display: flex
         max-width: 90%
-        column-gap: 150px
+        column-gap: 9.375rem
         flex-direction: column
 
         article
             height: auto
-            width: 1000px
+            width: 62.5rem
             display: flex
             flex-direction: column
             justify-content: center
-
-            h1
-                margin: 0
-                font-weight: normal
-                font-family: "Inter-Bold"
-                font-size: clamp($header-mobile, 5vw, $header-desktop)
-
-            p
-                color: $gray
-                width: 950px
-                line-height: $line-height
-                font-family: "Inter-Medium"
-                font-size: clamp($text-mobile, 2.5vw, $text-desktop)
 
         .skillGrid-box
             gap: 2rem
@@ -48,14 +26,14 @@
 
             button
                 color: $black
-                width: 175px
-                padding: 15px 0
+                width: 10.9375rem
+                padding: .9375rem 0
                 cursor: pointer
                 transition: .25s
-                border-radius: 50px
-                border: 2px solid $secondary
+                font-size: $text
+                border-radius: 3.125rem
+                border: .125rem solid $secondary
                 background-color: $background
-                font-size: clamp($text-mobile, 2.5vw, $text-desktop)
 
                 &:hover 
                     border-radius: 1rem 50px 50px 50px

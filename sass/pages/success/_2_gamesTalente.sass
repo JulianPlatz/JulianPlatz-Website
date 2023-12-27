@@ -1,20 +1,11 @@
-@import sass/other/variables
+@import sass/variables
     
 .gamesTalente-section
-    width: 100%
-    height: auto
-    display: flex
-    padding: $py-15
-    margin-top: $m-1
-    align-items: center
-    justify-content: center
-    background-color: $primary
-
     div
         height: auto
         display: flex
         max-width: 90%
-        column-gap: 150px
+        column-gap: 9.375rem
         flex-direction: column
 
         article
@@ -24,18 +15,8 @@
             flex-direction: column
             justify-content: center
 
-            h1
-                margin: 0
-                font-weight: normal
-                font-family: "Inter-Bold"
-                font-size: clamp($header-mobile, 5vw, $header-desktop)
-
             p
-                color: $gray
-                width: 970px
-                line-height: $line-height
-                font-family: "Inter-Medium"
-                font-size: clamp($text-mobile, 2.5vw, $text-desktop)
+                width: 60rem
 
         .project-box
             gap: 2rem
@@ -50,12 +31,13 @@
                 font-size: clamp(30px, 10vw , 75px)
 
             video
-                width: 1000px
+                width: 62.5rem
                 border-radius: $b-1
 
             button
                 gap: 2rem
-                width: 250px
+                width: 12.5rem
+                height: 4rem
                 border: none
                 display: flex
                 padding: $py-05
@@ -65,15 +47,9 @@
                 justify-content: center
                 background-color: $secondary
 
-                p
-                    color: $gray
-                    line-height: $line-height
-                    font-family: "Inter-Medium"
-                    font-size: clamp($text-mobile, 2.5vw, $text-desktop)
-
                 img
-                    width: 50px
-                    height: 50px
+                    width: 2.5rem
+                    height: 2.5rem
                     border-radius: 50%
 
 /* Tablet Portrait */

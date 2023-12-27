@@ -1,25 +1,24 @@
-@import sass/other/variables
+@import sass/variables
 
 main
     display: flex
     flex: 1 0 auto
-    margin-top: $m-05
     align-items: center
     flex-direction: column
     justify-content: center
     background-color: $primary
 
     h1
+        font-size: 4rem
         font-weight: normal
         font-family: "Inter-Black"
-        font-size: clamp(30px, 10vw , 75px)
 
     h2
         color: $gray
-        margin-top: -25px
+        margin-top: $m-1
         font-weight: normal
+        font-size: $subheader
         font-family: "Inter-Medium"
-        font-size: clamp(20px, 5vw , 30px)
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)

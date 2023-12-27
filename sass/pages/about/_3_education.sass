@@ -1,15 +1,6 @@
-@import sass/other/variables
+@import sass/variables
     
 .education-section
-    width: 100%
-    height: auto
-    display: flex
-    padding: $py-15
-    margin-top: $m-1
-    align-items: center
-    justify-content: center
-    background-color: $primary
-
     div
         gap: 2rem
         height: auto
@@ -19,42 +10,35 @@
 
         .education-box
             display: flex
-            height: 100px
+            height: 6.25rem
             align-items: center
             flex-direction: row
 
             img
-                width: 50px
+                width: 3.125rem
                 height: 50px
                 border-radius: 50%
-                border: 3px solid $background
+                border: .1875rem solid $background
 
             article
                 gap: .5rem
-                width: 475px
+                width: 29.6875rem
                 display: flex
                 flex-direction: column
 
                 h1
-                    margin: 0
-                    font-weight: normal
-                    font-family: "Inter-Bold"
-                    font-size: clamp($text-mobile, 2.5vw, $text-desktop)
+                    font-size: $subheader
 
                 p
                     margin: 0
-                    color: $gray
-                    line-height: $line-height
-                    font-family: "Inter-Medium"
-                    font-size: clamp($text-mobile, 2.5vw, $text-desktop)
 
 
             span
-                width: 150px
+                width: 9.375rem
                 color: $gray
+                font-size: $text
                 line-height: $line-height
                 font-family: "Inter-Medium"
-                font-size: clamp($text-mobile, 2.5vw, $text-desktop)
         
 
 /* Tablet Portrait */

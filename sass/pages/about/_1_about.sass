@@ -1,0 +1,31 @@
+@import sass/variables
+    
+.about-section
+    div
+        height: auto
+        display: flex
+        max-width: 90%
+        column-gap: 9.375rem
+        flex-direction: row
+
+/* Tablet Portrait */
+@media only screen and (min-device-width: 810px) and (max-device-width: 1199px) and (orientation: portrait) 
+    .about-section div
+        column-gap: 3.125rem
+
+/* Phone Portrait */
+@media only screen and (max-device-width: 809px) and (orientation: portrait)
+    .about-section 
+        padding: $py-10
+
+        div
+            width: 100%
+            row-gap: $m-1
+            flex-direction: column
+
+            article
+                width: 100%
+                padding-top: $m-1
+
+            .about-img
+                width: 100%

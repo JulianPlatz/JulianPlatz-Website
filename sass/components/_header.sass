@@ -1,4 +1,4 @@
-@import sass/other/variables
+@import sass/variables
     
 header
     z-index: 10
@@ -49,23 +49,39 @@ nav
         opacity: 0
         width: 10rem
         display: flex
-        inset: 40% 50%
+        inset: 50% 50%
         height: 12.5rem
         list-style: none
         position: absolute
         flex-direction: column
         justify-content: space-between
-        transform: translate(-60%, -50%)
+        transform: translate(-50%, -50%)
 
         a
-            color: $black
-            display: flex
-            cursor: pointer
-            transition: .25s
+            // color: $black
+            // display: flex
+            // cursor: pointer
+            // transition: .25s
+            // text-decoration: none
+            // font-size: $subheader
+            // justify-content: start
+            // font-family: "Inter-Bold"
+            // position: relative
+            position: relative
             text-decoration: none
-            font-size: $subheader
-            justify-content: start
             font-family: "Inter-Bold"
+            color: $black
+            font-size: $subheader
+            letter-spacing: 1px
+
+            &:after
+                content: ""
+                position: absolute
+                bsckground-color: $black
+                height: .25rem
+                width: 100%
+                left: 0
+                bottom: -10px
 
             &:hover
                 transform: translateX(10px)
