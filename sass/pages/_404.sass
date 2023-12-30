@@ -1,70 +1,29 @@
 @import sass/variables
 
-.error-body
-    width: 100%
-    height: 100vh
+.error-div
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin: auto
 
-    .error-div
-        height: 80%
-        gap: 1.25rem
-        display: flex
-        align-items: center
-        flex-direction: column
-        justify-content: center
-    
-        h1
-            font-size: 15rem
-            text-align: center
-            font-family: "Inter-Black"
+    h1 
+        font-size: 4rem
 
-        p
-            color: $text
-            font-size: 1.5rem
-            margin-top: -12.5rem
-            text-align: center
-            font-family: "Inter-Medium"
+    p
+        font-size: 1rem
+        margin: 0
 
-        a button
-            border: none
-            cursor: pointer
-            transition: .25s
-            color: $bgPrimary
-            padding: .9375rem 1.5rem
-            border-radius: 1.5625rem
-            background-color: $button
-            font-family: "Inter-Medium"
-
-            &:hover
-                border-radius: .625rem 1.5625rem 1.5625rem
-
-    .error-footer
-        width: 100%
-        height: 8.75rem
-        display: flex
-        align-items: center
-        justify-content: center
-
-        .error-footer-div
-            width: 90%
-            height: 6.25rem
-            display: flex
-            flex-direction: row
-            align-items: center
-            justify-content: center
-
-            p
-                color: $text
-                bottom: 1.5625rem
-                font-size: 1rem
-                position: absolute
-                text-align: center
-                font-family: "Inter-Medium"
+    a button
+        color: $black
+        width: 10.9375rem
+        padding: .9375rem 0
+        cursor: pointer
+        transition: .25s
+        font-size: $text
+        border-radius: 3.125rem
+        border: .125rem solid $secondary
+        background-color: $background
+        margin-top: 2rem
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
-    .error-body .error-div h1
-        font-size: 6.25rem
-
-    .error-body .error-div p
-        font-size: 1.25rem
-        margin-top: -4.6875rem
