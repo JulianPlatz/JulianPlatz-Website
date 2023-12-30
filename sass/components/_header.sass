@@ -58,30 +58,22 @@ nav
         transform: translate(-50%, -50%)
 
         a
-            // color: $black
-            // display: flex
-            // cursor: pointer
-            // transition: .25s
-            // text-decoration: none
-            // font-size: $subheader
-            // justify-content: start
-            // font-family: "Inter-Bold"
-            // position: relative
+            color: $black
+            transition: .25s
             position: relative
+            letter-spacing: 1px
+            font-size: $subheader
             text-decoration: none
             font-family: "Inter-Bold"
-            color: $black
-            font-size: $subheader
-            letter-spacing: 1px
 
             &:after
+                left: 0
                 content: ""
+                width: 100%
+                bottom: -10px
+                height: .25rem
                 position: absolute
                 bsckground-color: $black
-                height: .25rem
-                width: 100%
-                left: 0
-                bottom: -10px
 
             &:hover
                 transform: translateX(10px)

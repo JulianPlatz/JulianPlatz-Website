@@ -12,13 +12,13 @@
     "icons": 
     [
         {
-            "src": "images/logo.png",
+            "src": "images/manifest/logo.png",
             "sizes": "1024x1024",
             "type": "image/png",
             "purpose": "any"
         },
         {
-            "src": "images/favicon1.ico",
+            "src": "images/manifest/favicon1.ico",
             "sizes": "512x512",
             "type": "image/ico",
             "purpose": "maskable"
