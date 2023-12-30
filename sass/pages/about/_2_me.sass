@@ -4,7 +4,7 @@
     div
         height: auto
         display: flex
-        max-width: 90%
+        max-width: 80%
         column-gap: 9.375rem
         flex-direction: column
 
@@ -37,12 +37,12 @@
 
                 &:hover 
                     border-radius: 1rem 50px 50px 50px
-        
-
-/* Tablet Portrait */
-@media only screen and (min-device-width: 810px) and (max-device-width: 1199px) and (orientation: portrait) 
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
-    .me-section div .skillGrid-box
-        gap: 1rem
+    .me-section div
+        article
+            width: 100%
+
+        .skillGrid-box
+            gap: 1rem

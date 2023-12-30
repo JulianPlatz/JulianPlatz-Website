@@ -5,7 +5,7 @@
         gap: 2rem
         height: auto
         display: flex
-        max-width: 90%
+        max-width: 80%
         flex-direction: column
 
         .education-box
@@ -39,10 +39,25 @@
                 font-size: $text
                 line-height: $line-height
                 font-family: "Inter-Medium"
-        
-
-/* Tablet Portrait */
-@media only screen and (min-device-width: 810px) and (max-device-width: 1199px) and (orientation: portrait) 
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
+    .education-section div .education-box
+                img
+                    width: 2.5rem
+                    height: 2.5rem
+
+                article
+                    gap: .5rem
+                    width: 29.6875rem
+                    display: flex
+                    flex-direction: column
+
+                    h1
+                        font-size: 14px
+
+                    p
+                        font-size: 10px
+
+                span
+                    font-size: 10px
