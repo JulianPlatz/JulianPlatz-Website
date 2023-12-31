@@ -1,18 +1,19 @@
 @import sass/components/header
 @import sass/components/footer
 
-@import sass/pages/home
+@import sass/pages/1_home
 
-@import sass/pages/about/1_about
-@import sass/pages/about/2_me
-@import sass/pages/about/3_education
+@import sass/pages/2_1_about
+@import sass/pages/2_2_me
+@import sass/pages/2_3_education
 
-@import sass/pages/success/1_success
-@import sass/pages/success/2_gamesTalente
+@import sass/pages/3_1_success
+@import sass/pages/3_2_gamesTalente
 
-@import sass/pages/404
+@import sass/pages/4_error
 
 @import sass/variables
+@import sass/tags
 
 @font-face
     font-display: swap
@@ -49,34 +50,6 @@ html, body
     overflow: hidden
     min-height: 100dvh
     flex-direction: column
-
-section
-    width: 100%
-    height: auto
-    display: flex
-    padding: $py-10
-    align-items: center
-    justify-content: center
-    background-color: $primary
-
-article
-    width: 28rem
-    height: auto
-    display: flex
-    flex-direction: column
-    justify-content: center
-
-h1
-    margin: 0
-    font-size: $header
-    font-weight: normal
-    font-family: "Inter-Bold"
-
-p
-    color: $gray
-    font-size: $text
-    line-height: $line-height
-    font-family: "Inter-Medium"
 
 .about-img, .success-img
     width: 25rem
