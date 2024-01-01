@@ -4,53 +4,36 @@
     div
         height: auto
         display: flex
-        max-width: 90%
+        max-width: 80%
         column-gap: 9.375rem
         flex-direction: column
 
         article
+            width: 100%
             height: auto
-            width: 1000px
             display: flex
+            max-width: 62.5rem
             flex-direction: column
             justify-content: center
 
-            p
-                width: 60rem
-
         .project-box
             gap: 2rem
+            width: 100%
             display: flex
+            max-width: 62.5rem
             flex-direction: column
 
             span
-                margin: 0
+                margin: 5px 0 0
+                font-size: 4rem
                 color: $secondary
                 font-weight: normal
                 font-family: "Inter-Bold"
-                font-size: clamp(30px, 10vw , 75px)
 
             video
-                width: 62.5rem
+                width: 100%
+                max-width: 62.5rem
                 border-radius: $b-1
-
-            button
-                gap: 2rem
-                width: 12.5rem
-                height: 4rem
-                border: none
-                display: flex
-                padding: $py-05
-                flex-direction: row
-                align-items: center
-                border-radius: $b-1
-                justify-content: center
-                background-color: $secondary
-
-                img
-                    width: 2.5rem
-                    height: 2.5rem
-                    border-radius: 50%
 
 /* Tablet Portrait */
 @media only screen and (min-device-width: 810px) and (max-device-width: 1199px) and (orientation: portrait) 
