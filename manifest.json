@@ -1,27 +1,27 @@
 {
-    "name": "Julian Platz",
-    "short_name": "Julian Platz",
-    "description": "Portfolio", 
-    "lang": "de-DE",
-    "start_url": "index.html",
-    "scope": "index.html",
-    "display": "standalone",
-    "orientation": "portrait",
-    "theme_color": "#fff",
+    "name":             "Julian Platz",
+    "short_name":       "Julian Platz",
+    "description":      "Portfolio", 
+    "lang":             "de-DE",
+    "start_url":        "index.html",
+    "scope":            "index.html",
+    "display":          "standalone",
+    "orientation":      "portrait",
+    "theme_color":      "#fff",
     "background_color": "#fff",
     "icons": 
     [
         {
-            "src": "images/manifest/logo.png",
-            "sizes": "1024x1024",
-            "type": "image/png",
-            "purpose": "any"
+            "src":      "images/manifest/logo.png",
+            "sizes":    "1024x1024",
+            "type":     "image/png",
+            "purpose":  "any"
         },
         {
-            "src": "images/manifest/favicon1.ico",
-            "sizes": "512x512",
-            "type": "image/ico",
-            "purpose": "maskable"
+            "src":      "images/manifest/favicon1.ico",
+            "sizes":    "512x512",
+            "type":     "image/ico",
+            "purpose":  "maskable"
         }
     ]
 }
