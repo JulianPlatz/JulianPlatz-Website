@@ -14,6 +14,18 @@
             height: 6.25rem
             align-items: center
             flex-direction: row
+            color: $black
+            cursor: pointer
+            transition: .25s
+            font-size: $text
+            padding: .75rem 2rem
+            border-radius: 5rem
+            font-family: "Inter-Medium"
+            background-color: $background
+            border: .125rem solid $secondary
+
+            &:hover 
+                border-radius: 1rem 5rem 5rem
 
             img
                 height: 50px
@@ -21,7 +33,7 @@
                 user-select: none
                 border-radius: 50%
                 pointer-events: none
-                border: .1875rem solid $background
+                border: .1875rem solid $secondary
 
             article
                 gap: .5rem
