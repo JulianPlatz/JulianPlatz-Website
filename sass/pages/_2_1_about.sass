@@ -5,12 +5,63 @@
         height: auto
         display: flex
         max-width: 80%
-        flex-direction: row
-        column-gap: 9.375rem
+        flex-direction: column
 
-        article p span
-            display: block
-            margin-bottom: 1rem
+        .about-box
+            display: flex
+            max-width: 100%
+            flex-direction: row
+            margin-top: 3.125rem
+
+            .about-img
+                width: 30rem
+                height: 25rem
+                display: flex
+                align-self: center
+                border-radius: .625rem
+
+            .aboutContent-box
+                display: flex
+                flex-direction: column
+                justify-content: center
+
+                article 
+                    width: 35rem
+
+                    h1
+                        font-size: $header
+                        font-family: "Inter-Bold"
+
+                    h2 
+                        font-size: 1.25rem
+                        font-family: "Inter-Bold"
+
+                    p
+                        font-size: $text
+                        margin-bottom: 3rem
+                        font-family: "Inter-Medium"
+
+                .skillGrid-box
+                    max-width: 100%
+
+                    h3
+                        font-size: $text
+                        font-family: "Inter-Bold"
+
+                    .skillGrid
+                        gap: 1.5rem
+                        display: flex
+                        flex-wrap: wrap
+                        flex-direction: row
+
+                        i
+                            width: 3rem
+                            opacity: .9
+                            height: auto
+                            transition: .25s
+
+                            &:hover
+                                transform: translateY(-5px)
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)

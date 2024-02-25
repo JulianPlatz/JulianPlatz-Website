@@ -1,54 +1,16 @@
 @import sass/variables
-    
+
 .me-section
     div
         height: auto
-        display: flex
         max-width: 80%
-        column-gap: 9.375rem
-        flex-direction: column
 
         article
             width: 100%
-            height: auto
-            display: flex
             max-width: 62.5rem
-            flex-direction: column
-            justify-content: center
-
-        .skillGrid-box
-            gap: 2rem
-            width: 600px
-            display: flex
-            flex-wrap: wrap
-            margin: 75px auto
-            flex-direction: row
-            justify-content: center
-
-            button
-                color: $black
-                cursor: pointer
-                transition: .25s
-                font-size: $text
-                width: 10.9375rem
-                padding: .9375rem 0
-                border-radius: 3.125rem
-                font-family: "Inter-Medium"
-                background-color: $background
-                border: .125rem solid $secondary
-
-                &:hover 
-                    border-radius: 1rem 50px 50px
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
     .me-section div
         article
             width: 100%
-
-        .skillGrid-box
-            gap: 1rem
-
-            button
-                width: 100%
-                pointer-events: none

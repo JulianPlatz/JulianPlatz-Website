@@ -10,7 +10,6 @@ header
     display: flex
     user-select: none
     align-items: center
-    background-color: $primary
     justify-content: space-between
 
     a
@@ -38,6 +37,12 @@ header
             height: 2px
             border-radius: 8px
             background-color: $black
+
+        #burgerOne.open
+            transform: rotate(45deg) translateY(5px)
+
+        #burgerTwo.open
+            transform: rotate(-45deg) translateY(-5px)
         
 nav
     height: 0%
@@ -47,6 +52,10 @@ nav
     position: absolute
     pointer-events: none
     background-color: $primary
+
+    &.open
+        height: 100dvh
+        pointer-events: auto
 
     div
         opacity: 0
@@ -60,6 +69,9 @@ nav
         flex-direction: column
         justify-content: space-between
         transform: translate(-50%, -50%)
+
+        &.open
+            opacity: 1
 
         a
             color: $black

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
         <meta name="description" content="Portfolio"/>
         <meta name="author" content="Julian Platz">
-        <meta name="keywords" content="HTML, SASS, minimalistic, Portfolio">
+        <meta name="keywords" content="Julian Platz, Portfolio, About, Work">
         <title>Julian Platz | About</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/style.min.css">
@@ -18,7 +18,7 @@
                 <div id="burgerTwo"></div>
             </button>
         </header>
-        <nav>
+        <nav id="nav">
             <div id="navLinks">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -28,15 +28,36 @@
 
         <section class="about-section">
             <div>
-                <article>
-                    <h1>About 👋</h1>
-                    <p>
-                        <span>Heyy, ich bin Julian!</span>
-                        Ich habe eine Leidenschaft für Design, Web-Entwicklung 
-                        und eigentlich an allem, was mit Technik zu tun hat.
-                    </p>
-                </article>
-                <div class="about-img"></div>
+                <h1>About 👋</h1>
+                <div class="about-box">
+                    <div class="about-img"></div>
+                    <div class="aboutContent-box">
+                        <article>
+                            <h1>Julian Platz</h1>
+                            <h2>Azubi | Fachinformatiker für Anwendungsentwicklung</h2>
+                            <p>
+                                Leidenschaft für die Erstellung von Webseiten mit UI/UX
+                                Benutzeroberfläche und immer auf dem neuesten Stand in Bezug 
+                                auf Technologie und Entwicklung.
+                            </p>
+                        </article>
+                        <div class="skillGrid-box">
+                            <h3>Meine Skills sind:</h3>
+                            <div class="skillGrid">
+                                <i><img src="images/icons/html5-original.svg" alt="HTHL5 Icon"></i>
+                                <i><img src="images/icons/css3-original.svg" alt="CSS5 Icon"></i>
+                                <i><img src="images/icons/javascript-original.svg" alt="JavaScript Icon"></i>
+                                <i><img src="images/icons/bootstrap-original.svg" alt="Bootstrap Icon"></i>
+                                <i><img src="images/icons/sass-original.svg" alt="SASS Icon"></i>
+                                <i><img src="images/icons/mysql-original.svg" alt="mySQL Icon"></i>
+                                <i><img src="images/icons/jquery-original.svg" alt="jQuery Icon"></i>
+                                <i><img src="images/icons/php-original.svg" alt="PHP Icon"></i>
+                                <i><img src="images/icons/git-original.svg" alt="Git Icon"></i>
+                                <i><img src="images/icons/figma-original.svg" alt="Figma Icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -51,17 +72,6 @@
                         eine sehr gute Benutzererfahrung versprechen.
                     </p>
                 </article>
-                <div class="skillGrid-box">
-                    <button>HTML</button>
-                    <button>CSS</button>
-                    <button>Bootstrap</button>
-                    <button>JavaScript</button>
-                    <button>jQuery</button>
-                    <button>SASS</button>
-                    <button>PHP</button>
-                    <button>Twig</button>
-                    <button>MySQL</button>
-                </div>
             </div>
         </section>
 
@@ -104,6 +114,7 @@
             </div>
         </footer>
         <script src="js/nav.js"></script>
+        <script src="js/background.js"></script>
         <script src="https://kit.fontawesome.com/771ce1728e.js" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -39,10 +39,21 @@ html, body
     color: $black
     transition: 1s
     cursor: default
+    position: relative 
     overflow-x: hidden
     box-sizing: border-box
     scroll-behavior: smooth
-    background-color: $background
+
+    &::before
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        z-index: -1
+        content: ""
+        opacity: 0.5
+        position: absolute
+        background-image: var(--backgroundImage)
 
 ::selection
     color: $primary
@@ -54,13 +65,13 @@ html, body
     min-height: 100dvh
     flex-direction: column
 
-.about-img, .work-img
+.work-img
     width: 25rem
     height: 15rem
     border-radius: .625rem
 
 .about-img
-    background: bottom / 50% no-repeat url("/images/Memoji_JulianPlatz.webp")
+    background: center / 50% no-repeat url("/images/Memoji_JulianPlatz.webp")
 
 .work-img
     background: center / 100% no-repeat url("/images/successes.webp")
