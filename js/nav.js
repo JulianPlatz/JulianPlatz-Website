@@ -8,3 +8,9 @@ function toggleNavbar() {
         element.classList.toggle("open", isOpen);
     });
 }
+
+window.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && isOpen) {
+        toggleNavbar();
+    }
+});
