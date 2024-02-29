@@ -2,11 +2,14 @@ const elements = document.querySelectorAll("#nav, #navLinks, #burgerOne, #burger
 let isOpen = false;
 
 function toggleNavbar() {
-    isOpen = !isOpen;
+    isOpen = window.scrollY > 0 ? true : !isOpen;
 
     elements.forEach(element => {
         element.classList.toggle("open", isOpen);
     });
+
+    document.body.style.overflow = isOpen ? "hidden" : "";
+    document.body.style.height = isOpen ? "100dvh" : "";
 }
 
 window.addEventListener("keydown", function (event) {
@@ -14,3 +17,6 @@ window.addEventListener("keydown", function (event) {
         toggleNavbar();
     }
 });
+
+const button = document.getElementById("toggleButton");
+button.addEventListener("click", toggleNavbar);
