@@ -7,5 +7,5 @@ function oszimtUrl() {
 }
 
 function schuleanderdahmeUrl() {
-    window.open('https://www.oszimt.de', '_blank');
+    window.open('https://www.dahmeschule.de', '_blank');
 }
