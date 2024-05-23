@@ -14,7 +14,7 @@ header
     position: fixed
 
     a
-        color: $black
+        color: $color-3
         font-size: $text
         margin-left: 2.5rem
         text-decoration: none
@@ -23,7 +23,7 @@ header
     button
         row-gap: 5px
         border: none
-        color: $black
+        color: $color-3
         display: flex
         outline: none
         height: 1.75rem
@@ -37,7 +37,7 @@ header
             width: 15px
             height: 2px
             border-radius: 8px
-            background-color: $black
+            background-color: $color-3
 
         #burgerOne.open
             transform: rotate(45deg) translateY(5px)
@@ -52,7 +52,7 @@ nav
     opacity: .9
     position: absolute
     pointer-events: none
-    background-color: $primary
+    background-color: $color-15
 
     &.open
         height: 100dvh
@@ -75,7 +75,7 @@ nav
             opacity: 1
 
         a
-            color: $black
+            color: $color-3
             transition: .25s
             position: relative
             letter-spacing: 1px
@@ -84,7 +84,7 @@ nav
             font-family: "Lexend-Bold"
 
             &:hover 
-                color: #000
+                color: $color-0
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
