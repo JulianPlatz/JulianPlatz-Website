@@ -7,10 +7,10 @@
         <meta name="author" content="Julian Platz">
         <meta name="keywords" content="HTML, SASS, minimalistic, Portfolio">
         <title>Julian Platz | Work</title>
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
         <link rel="stylesheet" href="css/style.min.css">
     </head>
-    <body>
+    <body class="work">
         <header>
             <a href="/">JP</a>
             <button aria-label="navBurger-btn" id="toggleButton">
@@ -26,70 +26,58 @@
             </div>
         </nav>
 
-        <section class="work-section">
-            <div>
-                <article>
-                    <h1>Work 💻</h1>
+        <main>
+            <section class="work-section">
+                <h1>Work 💻</h1>
+                <div class="work-div">
                     <p>
                         Eine Auswahl meiner Projekte, die ich in meiner Freizeit 
                         entwickelt habe. Aber auch ein Erfolg ist dabei. Immer 
                         wieder lerne ich dazu und verbessere meinen Prozess.
                     </p>
-                </article>
-                <div class="work-img"></div>
-            </div>
-        </section>
+                    <img class="work-img" src="/assets/images/successes.webp"></img>
+                </div>
+            </section>
 
-        <section class="gamesTalente-section">
-            <div>
-                <article>
-                    <h1>GamesTalente 2023 🎮</h1>
-                    <p>
-                        Die GamesTalente ist ein Wettbewerb, der aufstrebende Talente in der Spieleentwicklung fördert und ihnen die Möglichkeit bietet, 
-                        ihre Fähigkeiten zu präsentieren und Karrieremöglichkeiten in der Spieleindustrie zu erkunden.
-                    </p>
-                </article>
+            <section class="gamesTalente-section">
+                <h1>GamesTalente 2023 🎮</h1>
+                <p>
+                    Die GamesTalente ist ein Wettbewerb, der aufstrebende Talente in der Spieleentwicklung fördert und ihnen die Möglichkeit bietet, 
+                    ihre Fähigkeiten zu präsentieren und Karrieremöglichkeiten in der Spieleindustrie zu erkunden.
+                </p>
                 <div class="project-box">
                     <span>DON'T TOUCH</span>
                     <span>1er von 50 Teilnehmern deutschlandweit</span>
-                    <video controls controlsList="nodownload" src="videos/Don't_Touch_Trailer_JulianPlatz.mp4" poster="images/Don't_Touch_Trailer_Frame.webp" class="trailer-video"></video>
+                    <video controls controlsList="nodownload" src="assets/videos/Don't_Touch_Trailer_JulianPlatz.mp4" poster="assets/images/Don't_Touch_Trailer_Frame.webp" class="trailer-video"></video>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="eightBit-section">
-            <div>
-                <article>
-                    <h1>8Bit Gameplay 👾</h1>
-                    <p>
-                        Eine kleine und minimalistische Website, um in die alte Welt der Spiele zurückzukehren. Entspanne dich und genieße die 
-                        aufregende Welt von Mario und Sonic mit nostalgischer Atmosphäre und dazugehöriger Musik."
-                    </p>
-                </article>
+            <section class="eightBit-section">
+                <h1>8Bit Gameplay 👾</h1>
+                <p>
+                    Eine kleine und minimalistische Website, um in die alte Welt der Spiele zurückzukehren. Entspanne dich und genieße die 
+                    aufregende Welt von Mario und Sonic mit nostalgischer Atmosphäre und dazugehöriger Musik."
+                </p>
                 <div class="project-box">
                     <span>8Bit</span>
                     <a href="https://8bit-gameplay.netlify.app">8bit-gameplay.netlify.app</a>
                     <iframe src="https://8bit-gameplay.netlify.app" height="500" frameborder="0"></iframe>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- <section class="tst-section">
-            <div>
-                <article>
-                    <h1>Tactical Stats Tracker ⛩️</h1>
-                    <p>
-                        TST ist eine mit Swift entwickelte iOS-App, die auf der offiziellen Valorant-API basiert und deine Statistiken zu allen Spielern auswertet. 
-                        Erfahre, wie du dich geschlagen hast und erfahre was du tun kannst, um beim nächsten Mal besser abzuschneiden.
-                    </p>
-                </article>
+            <!-- <section class="tst-section">
+                 <h1>Tactical Stats Tracker ⛩️</h1>
+                <p>
+                    TST ist eine mit Swift entwickelte iOS-App, die auf der offiziellen Valorant-API basiert und deine Statistiken zu allen Spielern auswertet. 
+                    Erfahre, wie du dich geschlagen hast und erfahre was du tun kannst, um beim nächsten Mal besser abzuschneiden.
+                </p>
                 <div class="project-box">
                     <span>TST</span>
                     <span>Keine Veröffentlichung</span>
                     <div class="tst-img"></div>
                 </div>
-            </div>
-        </section> -->
+            </section> -->
+        </main>
 
         <footer>
             <div class="footer-box">
@@ -101,7 +89,6 @@
             </div>
         </footer>
         <script src="js/nav.js"></script>
-        <script src="js/background.js"></script>
         <script src="https://kit.fontawesome.com/771ce1728e.js" crossorigin="anonymous"></script>
     </body>
 </html>

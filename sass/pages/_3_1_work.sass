@@ -1,26 +1,27 @@
 @import sass/variables
     
-.work-section
-    div
-        height: auto
-        display: flex
-        max-width: 80%
-        flex-direction: row
-        column-gap: 9.375rem
+body.work
+    .work-section 
+        .work-div
+            height: auto
+            display: flex
+            flex-direction: row
+            column-gap: 9.375rem
+
+            img
+                width: 40%
+                height: auto
+                border-radius: $b-05
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
     .work-section 
         padding: $py-10
         
-        div
+        .work-div
             width: 100%
             row-gap: $m-1
             flex-direction: column
-
-            article
-                width: 100%
-                padding-top: $m-1
 
             .work-img
                 width: 100%

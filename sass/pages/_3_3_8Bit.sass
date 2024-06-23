@@ -1,26 +1,11 @@
 @import sass/variables
-    
-.eightBit-section
-    div
-        height: auto
-        display: flex
-        max-width: 80%
-        column-gap: 9.375rem
-        flex-direction: column
 
-        article
-            width: 100%
-            height: auto
-            display: flex
-            max-width: 62.5rem
-            flex-direction: column
-            justify-content: center
-
+body.work
+    .eightBit-section
         .project-box
             gap: 2rem
             width: 100%
             display: flex
-            max-width: 62.5rem
             flex-direction: column
 
             span
@@ -40,6 +25,7 @@
             iframe
                 border-radius: $b-1
                 border: .125rem solid $color-14
+                height: 587.08px
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)

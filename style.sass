@@ -1,21 +1,4 @@
-@import sass/components/header
-@import sass/components/footer
-
-@import sass/pages/1_home
-
-@import sass/pages/2_1_about
-@import sass/pages/2_2_me
-@import sass/pages/2_3_education
-
-@import sass/pages/3_1_work
-@import sass/pages/3_2_gamesTalente
-@import sass/pages/3_3_8Bit
-@import sass/pages/3_4_tst
-
-@import sass/pages/4_error
-
-@import sass/variables
-@import sass/tags
+@import sass/template
 
 @font-face
     font-display: swap
@@ -46,8 +29,8 @@ html, body
     margin: 0
     padding: 0
     hyphens: auto
-    color: $color-3
     transition: 1s
+    color: $color-3
     cursor: default
     position: relative 
     overflow-x: hidden
@@ -58,9 +41,9 @@ html, body
         inset: 0
         z-index: -1
         content: ""
-        opacity: 0.5
-        position: absolutes
-        background-image: url("/images/background.webp")
+        opacity: 0.25
+        position: absolute
+        background-image: url("/assets/images/background.webp")
 
 ::selection
     color: $color-15
@@ -71,11 +54,3 @@ html, body
     overflow: hidden
     min-height: 100dvh
     flex-direction: column
-
-.work-img
-    width: 25rem
-    height: 15rem
-    border-radius: .625rem
-
-.work-img
-    background: center / 100% no-repeat url("/images/successes.webp")

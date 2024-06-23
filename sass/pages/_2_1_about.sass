@@ -1,13 +1,7 @@
 @import sass/variables
     
-.about-section
-    div
-        height: auto
-        display: flex
-        max-width: 80%
-        column-gap: 5rem
-        flex-direction: column
-
+body.about
+    .about-section
         .about-box
             display: flex
             max-width: 66%
@@ -18,6 +12,7 @@
             .about-img
                 width: 15rem
                 height: auto
+                user-select: none
                 align-self: center
 
             .aboutContent-box
@@ -31,7 +26,6 @@
                     h1
                         font-size: $header
                         font-weight: normal
-                        font-family: "Lexend-Bold"
 
                     h2 
                         font-size: 1.25rem
@@ -39,9 +33,7 @@
                         font-family: "Lexend-Bold"
 
                     p
-                        font-size: $text
                         margin-bottom: 3rem
-                        font-family: "Lexend-Medium"
 
                 .skillGrid-box
                     max-width: 100%
@@ -63,6 +55,7 @@
                             opacity: .9
                             height: auto
                             transition: .25s
+                            user-select: none
 
                             &:hover
                                 transform: translateY(-5px)
@@ -72,57 +65,47 @@
     .about-section 
         padding: $py-10
 
-        div
-            width: 100%
-            row-gap: $m-1
+        .about-box
+            max-width: 100%
             flex-direction: column
 
-            .about-box
+            .about-img
+                width: 50%
+                height: auto
+                align-self: center
+                margin-bottom: $m-1
+
+            .aboutContent-box
+                display: flex
                 max-width: 100%
                 flex-direction: column
+                justify-content: center
 
-                .about-img
-                    width: 50%
-                    height: auto
-                    align-self: center
-                    margin-bottom: $m-1
-
-                .aboutContent-box
-                    display: flex
-                    max-width: 100%
-                    flex-direction: column
-                    justify-content: center
-
-            article
-                width: 100%
-                padding-top: $m-1
+        article
+            width: 100%
+            padding-top: $m-1
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 1109px) and (orientation: portrait)
     .about-section 
         padding: $py-10
 
-        div
-            width: 100%
-            row-gap: $m-1
+        .about-box
+            max-width: 100%
             flex-direction: column
 
-            .about-box
+            .about-img
+                width: 50%
+                height: auto
+                align-self: center
+                margin-bottom: $m-1
+
+            .aboutContent-box
+                display: flex
                 max-width: 100%
                 flex-direction: column
+                justify-content: center
 
-                .about-img
-                    width: 50%
-                    height: auto
-                    align-self: center
-                    margin-bottom: $m-1
-
-                .aboutContent-box
-                    display: flex
-                    max-width: 100%
-                    flex-direction: column
-                    justify-content: center
-
-            article
-                width: 100%
-                padding-top: $m-1
+        article
+            width: 100%
+            padding-top: $m-1

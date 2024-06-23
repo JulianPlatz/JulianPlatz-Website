@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
         <meta name="description" content="Portfolio"/>
         <meta name="author" content="Julian Platz">
-        <meta name="keywords" content="Julian Platz, Portfolio, About, Work">
+        <meta name="keywords" content="Julian Platz, portfolio, about, work">
         <title>Julian Platz | About</title>
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
         <link rel="stylesheet" href="css/style.min.css">
     </head>
-    <body>
+    <body class="about">
         <header>
             <a href="/">JP</a>
             <button aria-label="navBurger-btn" id="toggleButton">
@@ -26,11 +26,11 @@
             </div>
         </nav>
 
-        <section class="about-section">
-            <div>
+        <main>
+            <section class="about-section">
                 <h1>About 👋</h1>
                 <div class="about-box">
-                    <img class="about-img" src="images/Memoji_JulianPlatz.webp" alt="Julian Platz Memoji">
+                    <img class="about-img" src="assets/images/Memoji_JulianPlatz.webp" alt="Julian Platz Memoji">
                     <div class="aboutContent-box">
                         <article>
                             <h1>Julian Platz</h1>
@@ -44,40 +44,34 @@
                         <div class="skillGrid-box">
                             <h3>Meine Skills:</h3>
                             <div class="skillGrid">
-                                <i><img src="images/SkillIcons/html5-original.svg" alt="HTHL5 Icon" title="HTML5"></i>
-                                <i><img src="images/SkillIcons/css3-original.svg" alt="CSS3 Icon" title="CSS3"></i>
-                                <i><img src="images/SkillIcons/javascript-original.svg" alt="JavaScript Icon" title="JavaScript"></i>
-                                <i><img src="images/SkillIcons/bootstrap-original.svg" alt="Bootstrap Icon" title="Bootstrap"></i>
-                                <i><img src="images/SkillIcons/sass-original.svg" alt="SASS Icon" title="SASS"></i>
-                                <i><img src="images/SkillIcons/mysql-original.svg" alt="mySQL Icon" title="mySQL"></i>
-                                <i><img src="images/SkillIcons/jquery-original.svg" alt="jQuery Icon" title="jQuery"></i>
-                                <i><img src="images/SkillIcons/php-original.svg" alt="PHP Icon" title="PHP"></i>
-                                <i><img src="images/SkillIcons/figma-original.svg" alt="Figma Icon" title="Figma"></i>
+                                <i><img src="assets/images/SkillIcons/html5-original.svg" alt="HTHL5 Icon" title="HTML5"></i>
+                                <i><img src="assets/images/SkillIcons/css3-original.svg" alt="CSS3 Icon" title="CSS3"></i>
+                                <i><img src="assets/images/SkillIcons/javascript-original.svg" alt="JavaScript Icon" title="JavaScript"></i>
+                                <i><img src="assets/images/SkillIcons/bootstrap-original.svg" alt="Bootstrap Icon" title="Bootstrap"></i>
+                                <i><img src="assets/images/SkillIcons/sass-original.svg" alt="SASS Icon" title="SASS"></i>
+                                <i><img src="assets/images/SkillIcons/mysql-original.svg" alt="mySQL Icon" title="mySQL"></i>
+                                <i><img src="assets/images/SkillIcons/jquery-original.svg" alt="jQuery Icon" title="jQuery"></i>
+                                <i><img src="assets/images/SkillIcons/php-original.svg" alt="PHP Icon" title="PHP"></i>
+                                <i><img src="assets/images/SkillIcons/figma-original.svg" alt="Figma Icon" title="Figma"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="me-section">
-            <div>
-                <article>
-                    <h1>My Story 👨‍💻</h1>
-                    <p>
-                        Mit 13 Jahren lernte ich die Welt des Programmierens kennen. Ich fing an, meine erste kleine Website zu schreiben, bastelte ein 2D
-                        Jump 'n' Run Spiel und testete verschiedene Programmiersprachen aus. Hängengeblieben bin ich dabei dann in der Web-Entwicklung.
-                        Vor allem im Front-End kann ich meine Ideen in interaktive und ansprechende Benutzeroberflächen verwandeln und dem Nutzer
-                        eine sehr gute Benutzererfahrung versprechen.
-                    </p>
-                </article>
-            </div>
-        </section>
+            <section class="me-section">
+                <h1>My Story 👨‍💻</h1>
+                <p>
+                    Mit 13 Jahren lernte ich die Welt des Programmierens kennen. Ich fing an, meine erste kleine Website zu schreiben, bastelte ein 2D
+                    Jump 'n' Run Spiel und testete verschiedene Programmiersprachen aus. Hängengeblieben bin ich dabei dann in der Web-Entwicklung.
+                    Vor allem im Front-End kann ich meine Ideen in interaktive und ansprechende Benutzeroberflächen verwandeln und dem Nutzer
+                    eine sehr gute Benutzererfahrung versprechen.
+                </p>
+            </section>
 
-        <section class="education-section">
-            <div>
+            <section class="education-section">
                 <div class="education-box" onclick="proofitUrl()">
-                    <img src="images/proofit.webp" alt="ProofIT-Icon">
+                    <img src="assets/images/proofit.webp" alt="ProofIT-Icon">
                     <article>
                         <h1>ProofIT GmbH</h1>
                         <p><strong>Betrieb: </strong>Ausbildung Fachinformatiker</p>
@@ -85,7 +79,7 @@
                     <span>2023 - now</span>
                 </div>
                 <div class="education-box" onclick="oszimtUrl()">
-                    <img src="images/oszimt.webp" alt="OSZIMT-Icon">
+                    <img src="assets/images/oszimt.webp" alt="OSZIMT-Icon">
                     <article>
                         <h1>OSZ IMT</h1>
                         <p><strong>Berufsschule: </strong>Ausbildung Fachinformatiker</p>
@@ -93,15 +87,15 @@
                     <span>2023 - now</span>
                 </div>
                 <div class="education-box" onclick="schuleanderdahmeUrl()">
-                    <img src="images/schuleanderdahme.webp" alt="SchuleAnDerDahme-Icon">
+                    <img src="assets/images/schuleanderdahme.webp" alt="SchuleAnDerDahme-Icon">
                     <article>
                         <h1>Schule an der Dahme</h1>
                         <p><strong>Abschlüsse: </strong>BBR/MSA</p>
                     </article>
                     <span>2016 - 2023</span>
                 </div>
-            </div>
-        </section>
+            </section>
+        </main>
 
         <footer>
             <div class="footer-box">

@@ -13,7 +13,7 @@ function toggleNavbar() {
 }
 
 window.addEventListener("keydown", function (event) {
-    if (event.key === "Escape" && isOpen) {
+    if (event.key === "Escape") {
         toggleNavbar();
     }
 });
