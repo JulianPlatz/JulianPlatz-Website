@@ -1,19 +1,2 @@
-[[redirects]]
-  from = "/index.html"
-  to = "/"
-  status = 200
-
-[[redirects]]
-  from = "/about.html"
-  to = "/about"
-  status = 200
-
-[[redirects]]
-  from = "/work.html"
-  to = "/work"
-  status = 200
-
-[[redirects]]
-  from = "/404.html"
-  to = "/404"
-  status = 404
+[build.processing.html]
+  pretty_urls = true
