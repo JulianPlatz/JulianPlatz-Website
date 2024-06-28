@@ -1,0 +1,63 @@
+@import sass/variables
+    
+.card
+    width: 17rem
+    height: auto
+    padding: 3rem
+    display: flex
+    transition: .25s
+    border-radius: $b-1
+    flex-direction: column
+    background-color: $color-15
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .15)
+
+    &:hover
+        transform: translateY(-3px)
+        box-shadow: 0 .125rem .375rem rgba(0, 0, 0, .05), 0 .625rem 1.5rem rgba(0, 0, 0, .15)
+
+    .card-head 
+        padding-bottom: 2rem
+
+        .card-img
+            width: 4rem
+            height: auto
+            user-select: none
+            border-radius: 50%
+            pointer-events: none
+            border: .1875rem solid $color-14
+
+    .card-body
+        display: flex
+        flex-direction: column
+        background-color: $color-15
+
+        .card-content
+            .card-title
+                color: $color-3
+                font-size: 1.5rem
+                font-family: "Lexend-Medium"
+
+        .card-extras
+            display: flex
+            margin-top: 1rem
+            flex-direction: row
+            align-items: center
+            justify-content: space-between
+
+            .card-link
+                width: 10rem
+                height: 3rem
+                cursor: pointer
+                transition: .25s
+                border-radius: $b-pill
+                font-family: "Lexend-Bold"
+                background-color: $color-15
+                border: .125rem solid $color-14
+
+                &:hover
+                    border-radius: $b-pill-hover
+
+            .card-span
+                color: $color-10
+                font-size: .8rem
+                font-family: "Inter-Medium"

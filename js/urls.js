@@ -1,5 +1,5 @@
 function proofitUrl() {
-    window.open('https://www.oszimt.de', '_blank');
+    window.open('https://www.proof-it.de', '_blank');
 }
 
 function oszimtUrl() {

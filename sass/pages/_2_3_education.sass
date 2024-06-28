@@ -2,86 +2,18 @@
     
 body.about
     .education-section
-        .education-box
-            margin: auto
-            color: $color-3
+        gap: 2rem
+        display: flex
+        align-items: center
+
+        .card-box
+            gap: 2rem
             display: flex
-            cursor: pointer
-            height: 6.25rem
-            transition: .25s
-            font-size: $text
-            border-radius: 5rem
+            flex-wrap: wrap
+            max-width: 100%
             flex-direction: row
-            align-items: center
-            padding: .75rem 2rem
-            font-family: "Inter-Medium"
-            border: .125rem solid $color-14
-            background: linear-gradient(-45deg, $color-14, $color-15)
-
-            &:nth-child(2)
-                margin: 2rem auto
-                
-
-            &:hover 
-                border-radius: 1rem 5rem 5rem
-
-            img
-                height: 50px
-                width: 3.125rem
-                user-select: none
-                border-radius: 50%
-                pointer-events: none
-                border: .1875rem solid $color-14
-
-            article
-                gap: .5rem
-                display: flex
-                width: 29.6875rem
-                flex-direction: column
-
-                h1
-                    font-size: 1.25rem
-                    font-family: "Inter-Bold"
-
-                p
-                    margin: 0
-                    font-family: "Inter-Medium"
-
-                    strong
-                        font-weight: normal
-                        font-family: "Inter-Bold"
 
 
-            span
-                color: $color-8
-                width: 9.375rem
-                font-size: $text
-                line-height: $line-height
-                font-family: "Inter-Medium"
-
-/* Phone Portrait */
-@media only screen and (max-device-width: 809px) and (orientation: portrait)
-    .education-section 
-        .education-box
-            padding: .25rem 2rem
-
-            img
-                width: 2.5rem
-                height: 2.5rem
-
-            article
-                gap: .5rem
-                display: flex
-                width: 29.6875rem
-                flex-direction: column
-
-                h1
-                    font-size: 14px
-
-                p
-                    font-size: 10px
-                    line-height: 16px
-
-            span
-                font-size: 10px
-                width: 100%
+// /* Phone Portrait */
+// @media only screen and (max-device-width: 809px) and (orientation: portrait)
+//     .education-section 
