@@ -17,14 +17,6 @@ section
     align-items: flex-start
     justify-content: center
     padding: $section-spacing
-    // border: 1px solid $color-3
-
-article
-    width: 28rem
-    height: auto
-    display: flex
-    flex-direction: column
-    justify-content: center
 
 h1
     margin: 0
@@ -37,6 +29,17 @@ p
     font-size: $text
     line-height: $line-height
     font-family: "Inter-Medium"
+
+button:not(#toggleButton)
+    color: $color-3
+    cursor: pointer
+    transition: .25s
+    border-radius: $b-pill
+    background-color: $color-15
+    border: .125rem solid $color-14
+
+    &:hover 
+        border-radius: $b-pill-hover
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
