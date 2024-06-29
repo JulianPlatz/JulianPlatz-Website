@@ -12,11 +12,11 @@
     },
 
     {
-        "imgSrc": "/assets/images/skillIcons/javascript-original.svg",
-        "alt": "JavaScript Icon",
-        "title": "JavaScript"
+        "imgSrc": "/assets/images/skillIcons/sass-original.svg",
+        "alt": "SASS Icon",
+        "title": "SASS"
     },
-
+    
     {
         "imgSrc": "/assets/images/skillIcons/bootstrap-original.svg",
         "alt": "Bootstrap Icon",
@@ -24,15 +24,9 @@
     },
 
     {
-        "imgSrc": "/assets/images/skillIcons/sass-original.svg",
-        "alt": "SASS Icon",
-        "title": "SASS"
-    },
-
-    {
-        "imgSrc": "/assets/images/skillIcons/mysql-original.svg",
-        "alt": "MySQL Icon",
-        "title": "MySQL"
+        "imgSrc": "/assets/images/skillIcons/javascript-original.svg",
+        "alt": "JavaScript Icon",
+        "title": "JavaScript"
     },
 
     {
@@ -45,6 +39,12 @@
         "imgSrc": "/assets/images/skillIcons/php-original.svg",
         "alt": "PHP Icon",
         "title": "PHP"
+    },
+
+    {
+        "imgSrc": "/assets/images/skillIcons/mysql-original.svg",
+        "alt": "MySQL Icon",
+        "title": "MySQL"
     },
 
     {

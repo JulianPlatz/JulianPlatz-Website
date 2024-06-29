@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 skill.classList.add('skill');
 
                 skill.innerHTML = `
-                    <i><img src="${item.imgSrc}" alt="${item.alt}" title="${item.title}" width="48" height="auto"></i>
+                     <div class="skill-box">
+                        <i><img src="${item.imgSrc}" alt="${item.alt}" title="${item.title}"></i>
+                    </div>
                 `;
 
                 container.appendChild(skill);

@@ -49,18 +49,32 @@ body.about
                         gap: 1.5rem
                         display: flex
                         flex-wrap: wrap
-                        max-width: 100%
+                        width: 100%
                         flex-direction: row
 
-                        i
+                        .skill-box
                             width: 3rem
-                            opacity: .9
-                            height: auto
+                            height: 3rem
+                            display: flex
+                            padding: .5rem
                             transition: .25s
-                            user-select: none
+                            border-radius: $b-1
+                            align-items: center
+                            flex-direction: column
+                            justify-content: center
+                            background-color: $color-15
+                            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .15)
 
                             &:hover
-                                transform: translateY(-5px)
+                                transform: translateY(-3px)
+                                box-shadow: 0 .125rem .375rem rgba(0, 0, 0, .05), 0 .625rem 1.5rem rgba(0, 0, 0, .15)
+
+                            i img
+                                width: 2rem
+                                opacity: .9
+                                height: auto
+                                transition: .25s
+                                user-select: none
 
 /* Phone Portrait */
 @media only screen and (max-device-width: $phone) and (orientation: portrait)
