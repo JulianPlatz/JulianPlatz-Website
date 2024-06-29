@@ -1,0 +1,55 @@
+[
+    {
+        "imgSrc": "/assets/images/skillIcons/html5-original.svg",
+        "alt": "HTML5 Icon",
+        "title": "HTML5"
+    },
+
+    {
+        "imgSrc": "/assets/images/skillIcons/css3-original.svg",
+        "alt": "CSS3 Icon",
+        "title": "CSS3"
+    },
+
+    {
+        "imgSrc": "/assets/images/skillIcons/javascript-original.svg",
+        "alt": "JavaScript Icon",
+        "title": "JavaScript"
+    },
+
+    {
+        "imgSrc": "/assets/images/skillIcons/bootstrap-original.svg",
+        "alt": "Bootstrap Icon",
+        "title": "Bootstrap"
+    },
+
+    {
+        "imgSrc": "/assets/images/skillIcons/sass-original.svg",
+        "alt": "SASS Icon",
+        "title": "SASS"
+    },
+
+    {
+        "imgSrc": "/assets/images/skillIcons/mysql-original.svg",
+        "alt": "MySQL Icon",
+        "title": "MySQL"
+    },
+
+    {
+        "imgSrc": "/assets/images/skillIcons/jquery-original.svg",
+        "alt": "jQuery Icon",
+        "title": "jQuery"
+    },
+
+    {
+        "imgSrc": "/assets/images/skillIcons/php-original.svg",
+        "alt": "PHP Icon",
+        "title": "PHP"
+    },
+
+    {
+        "imgSrc": "/assets/images/skillIcons/joomla-original.svg",
+        "alt": "Joomla Icon",
+        "title": "Joomla"
+    }
+]
