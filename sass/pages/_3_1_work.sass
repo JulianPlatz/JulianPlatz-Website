@@ -1,7 +1,7 @@
 @import sass/variables
     
 body.work
-    .work-section 
+    .work-section
         .work-div
             height: auto
             display: flex
@@ -15,13 +15,11 @@ body.work
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
-    .work-section 
-        padding: $py-10
-        
+    .work-section        
         .work-div
             width: 100%
             row-gap: $m-1
-            flex-direction: column
+            flex-direction: column !important
 
             .work-img
-                width: 100%
+                width: 100% !important

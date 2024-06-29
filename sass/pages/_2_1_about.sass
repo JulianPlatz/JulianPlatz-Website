@@ -12,8 +12,11 @@ body.about
             .about-img
                 width: 15rem
                 height: auto
+                display: flex
                 user-select: none
                 align-self: center
+                align-items: center
+                justify-content: center
 
             .aboutContent-box
                 display: flex
@@ -62,50 +65,16 @@ body.about
 
 /* Phone Portrait */
 @media only screen and (max-device-width: 809px) and (orientation: portrait)
-    .about-section 
-        padding: $py-10
-
+    .about-section
         .about-box
-            max-width: 100%
-            flex-direction: column
-
-            .about-img
-                width: 50%
-                height: auto
-                align-self: center
-                margin-bottom: $m-1
+            max-width: 100% !important
+            margin: auto auto
+            flex-direction: column !important
+            margin-top: 3.125rem
 
             .aboutContent-box
-                display: flex
-                max-width: 100%
-                flex-direction: column
-                justify-content: center
+                div
+                    margin-top: 2rem
 
-        div
-            width: 100%
-            padding-top: $m-1
-
-/* Phone Portrait */
-@media only screen and (max-device-width: 1109px) and (orientation: portrait)
-    .about-section 
-        padding: $py-10
-
-        .about-box
-            max-width: 100%
-            flex-direction: column
-
-            .about-img
-                width: 50%
-                height: auto
-                align-self: center
-                margin-bottom: $m-1
-
-            .aboutContent-box
-                display: flex
-                max-width: 100%
-                flex-direction: column
-                justify-content: center
-
-        div
-            width: 100%
-            padding-top: $m-1
+                    p
+                        margin-bottom: 0rem !important
