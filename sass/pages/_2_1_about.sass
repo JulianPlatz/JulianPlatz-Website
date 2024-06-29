@@ -3,14 +3,13 @@
 body.about
     .about-section
         .about-box
+            gap: 4rem
             display: flex
-            max-width: 66%
-            margin: auto auto
             flex-direction: row
             margin-top: 3.125rem
 
             .about-img
-                width: 15rem
+                width: 12rem
                 height: auto
                 display: flex
                 user-select: none
@@ -23,8 +22,8 @@ body.about
                 flex-direction: column
                 justify-content: center
 
-                div 
-                    width: 100%
+                .aboutInfo-box 
+                    width: 55%
 
                     h1
                         font-size: $header
@@ -64,7 +63,7 @@ body.about
                                 transform: translateY(-5px)
 
 /* Phone Portrait */
-@media only screen and (max-device-width: 809px) and (orientation: portrait)
+@media only screen and (max-device-width: $phone) and (orientation: portrait)
     .about-section
         .about-box
             max-width: 100% !important
@@ -72,9 +71,13 @@ body.about
             flex-direction: column !important
             margin-top: 3.125rem
 
+            .about-img
+                width: 10rem !important
+
             .aboutContent-box
-                div
-                    margin-top: 2rem
+                .aboutInfo-box
+                    margin-top: 0rem
+                    width: 100% !important
 
                     p
                         margin-bottom: 0rem !important
