@@ -12,7 +12,16 @@ body.about
             flex-wrap: wrap
             max-width: 100%
             flex-direction: row
+            justify-content: center
 
 
 // /* Phone Portrait */
 @media only screen and (max-device-width: $phone) and (orientation: portrait)
+    body.about
+        .education-section
+            h1
+                align-self: flex-start
+
+            .card-box
+                .card
+                    width: 100%
