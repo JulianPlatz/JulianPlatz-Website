@@ -2,7 +2,7 @@
     {
         "imgSrc": "/assets/images/education/proofit.webp",
         "title": "ProofIT GmbH",
-        "website": "https://www.proofit.com",
+        "website": "https://www.proof-it.de",
         "description": "IT-Dienstleistungen, Softwareentwicklung, Systemintegration.",
         "date": "2023 - now"
     },
@@ -10,14 +10,14 @@
         "imgSrc": "/assets/images/education/oszimt.webp",
         "title": "OSZ IMT",
         "description": "Oberstufenzentrum Informations- und Medizintechnik.",
-        "website": "https://www.osz-imt.de",
+        "website": "https://www.oszimt.de",
         "date": "2023 - now"
     },
     {
         "imgSrc": "/assets/images/education/schuleanderdahme.webp",
         "title": "Schule an der Dahme",
         "description": "Integrierte Sekundarschule mit gymnasialer Oberstufe",
-        "website": "https://www.schuleanderdahme.de",
+        "website": "https://www.dahmeschule.de",
         "date": "2019 - 2023"
     }
 ]
