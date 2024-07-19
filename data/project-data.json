@@ -1,0 +1,18 @@
+[
+    {
+        "title": "GamesTalente 2023 🎮",
+        "description": "Die GamesTalente ist ein Wettbewerb, der aufstrebende Talente in der Spieleentwicklung fördert und ihnen die Möglichkeit bietet, ihre Fähigkeiten zu präsentieren und Karrieremöglichkeiten in der Spieleindustrie zu erkunden.",
+        "project": "DON'T TOUCH",
+        "info": "1er von 50 Teilnehmern deutschlandweit",
+        "image": "/assets/images/project/Dont_Touch.webp",
+        "toggle": 1
+    },
+    {
+        "title": "Codédex 🏅",
+        "description": "Codédex ist ein interaktives Lernspiel, das neuen Generationen auf attraktive Weise die Grundlagen des Programmierens beibringt.",
+        "project": "Zertiﬁkate",
+        "info": "HTML",
+        "image": "/assets/images/project/placeholder.webp",
+        "toggle": 2
+    }
+]

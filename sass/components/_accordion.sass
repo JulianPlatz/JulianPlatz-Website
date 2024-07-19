@@ -1,0 +1,46 @@
+@import sass/variables
+
+.expandable-box
+    width: 100%
+    overflow: hidden
+    margin-bottom: 2rem
+    border-radius: 1rem
+    background-color: #fff
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .15)
+
+    input[type="checkbox"]
+        display: none
+
+    .label
+        height: 3rem
+        display: flex
+        padding: 15px
+        cursor: pointer
+        color: $color-15
+        user-select: none
+        padding-left: 2rem
+        align-items: center
+        align-content: center
+        font-size: $subheader
+        font-family: "Lexend-Bold"
+        background-color: $color-3
+        justify-content: space-between
+
+        .arrow-icon
+            transition: .5s
+            margin-right: 1rem
+
+    .content
+        max-height: 0
+        overflow: hidden
+        transition: max-height .5s ease-out, padding .5s ease-out
+
+    input[type="checkbox"]:checked ~ .content
+        padding: 1rem
+        max-height: 100vh
+
+    input[type="checkbox"]:checked + .label .arrow-icon
+        transform: rotate(90deg)
+
+    .content p
+        margin: 0
