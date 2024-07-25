@@ -8,11 +8,19 @@
         "toggle": 1
     },
     {
-        "title": "Codédex 🏅",
+        "title": "Codédex I 🏅",
         "description": "Codédex ist ein interaktives Lernspiel, das neuen Generationen auf attraktive Weise die Grundlagen des Programmierens beibringt.",
         "project": "Zertiﬁkate",
         "info": "HTML",
-        "image": "/assets/images/project/placeholder.webp",
+        "image": "/assets/images/project/html_certificate.webp",
         "toggle": 2
+    },
+    {
+        "title": "Codédex II 🏅",
+        "description": "Codédex ist ein interaktives Lernspiel, das neuen Generationen auf attraktive Weise die Grundlagen des Programmierens beibringt.",
+        "project": "Zertiﬁkate",
+        "info": "CSS",
+        "image": "/assets/images/project/css_certificate.webp",
+        "toggle": 3
     }
 ]
