@@ -29,19 +29,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 container.appendChild(accordion);
             });
 
-            const toggle1 = document.getElementById('toggle1');
-            const toggle2 = document.getElementById('toggle2');
+            const toggles = document.querySelectorAll('input[type="checkbox"][id^="toggle"]');
 
-            toggle1.addEventListener('change', function() {
-                if (toggle1.checked && toggle2.checked) {
-                    toggle2.checked = false;
-                }
-            });
-
-            toggle2.addEventListener('change', function() {
-                if (toggle2.checked && toggle1.checked) {
-                    toggle1.checked = false;
-                }
+            toggles.forEach(toggle => {
+                toggle.addEventListener('change', function() {
+                    if (toggle.checked) {
+                        toggles.forEach(otherToggle => {
+                            if (otherToggle !== toggle) {
+                                otherToggle.checked = false;
+                            }
+                        });
+                    }
+                });
             });
         })
         .catch(error => console.error('Error fetching project data:', error));
