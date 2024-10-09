@@ -22,13 +22,5 @@
         "info": "CSS",
         "image": "/assets/images/project/css_certificate.webp",
         "toggle": 3
-    },
-    {
-        "title": "Chrome Extension 🔌",
-        "description": "Kürzt lange Ausgaben von ChatGPT.",
-        "project": "ChatGPT ShortPrompt",
-        "info": "Extension",
-        "image": "/assets/images/project/chatgpt_shortprompt.webp",
-        "toggle": 4
     }
 ]
